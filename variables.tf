@@ -1,5 +1,5 @@
 variable "common_tags" {
-    type = map
+ 
     default = {
         Project = "Expense",
         Environment = "Dev"
@@ -8,7 +8,7 @@ variable "common_tags" {
     }
 }
 variable "project_names" {
-    type = string
+   
     default = "Expense"
   
 }
