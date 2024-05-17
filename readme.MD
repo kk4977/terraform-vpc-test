@@ -1,8 +1,10 @@
-### AWS VPC Module TEST
+### AWS VPC TEST
 
 ![alt text](images/vpc.jpg)
 
-This module creates following resources. We are using HA, we are getting first 2 AZ automatically.
+we can override the module using vpc test and creates following resources.  
+It is for the Users to change their configuration which required upon the resources in VPC.
+VPC-Test have the provider file that refers to terraform-aws-vpc which using the source of "../terraform-aws-vpc"
 
 * VPC
 * Internet Gateway with VPC association
