@@ -2,7 +2,7 @@
 
 ![alt text](images/vpc.jpg)
 
-we can override the module using vpc test and creates following resources.  
+we can override the terraform-aws-vpc module using vpc-test and we can create following resources.  
 It is for the Users to change their configuration which required upon the resources in VPC.
 VPC-Test have the provider file that refers to terraform-aws-vpc which using the source of "../terraform-aws-vpc"
 
