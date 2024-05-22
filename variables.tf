@@ -6,7 +6,7 @@ variable "common_tags" {
 
     }
 }
-variable "project_names" {
+variable "project_name" {
    
     default = "Expense"
   

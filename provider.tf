@@ -6,8 +6,8 @@ terraform {
     }
 }
 backend "s3"{
-        bucket = "sivakumar-remote-state"
-        key = "vpc-module-test"
+        bucket = "sivakumar-remote-state1"
+        key = "vpc-module-test1"
         region = "us-east-1"
         dynamodb_table = "daws78s-locking"
 
