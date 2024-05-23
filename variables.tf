@@ -6,9 +6,9 @@ variable "common_tags" {
 
     }
 }
-variable "project_name" {
+variable "project_names" {
    
-    default = "Expense"
+    default = "expense"
   
 }
 variable "public_subnet_cidrs" {
