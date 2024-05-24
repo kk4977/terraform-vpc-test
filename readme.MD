@@ -49,4 +49,4 @@ VPC-Test have the provider file that refers to terraform-aws-vpc which using the
 * vpc_id -  VPC ID created
 * public_subnet_ids - 2 public subnet ID created
 * private_subnet_ids - 2 private subnet ID created
-* database_subnet_ids - 2 database subnet ID created
+* database_subnet_ids - 2 databases subnet ID created
