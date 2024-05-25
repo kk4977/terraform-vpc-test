@@ -1,4 +1,4 @@
-### AWS VPC TEST
+# AWS VPC TEST
 
 ![alt text](images/vpc.jpg)
 
@@ -21,7 +21,7 @@ VPC-Test have the provider file that refers to terraform-aws-vpc which using the
 * Adding the peering route in default VPC, if user don't provide acceptor VPC explicitly.
 * Adding the peering routes in public, private and database route tables
 
-### Inputs
+## Inputs
 
 * project_name (Required) - your project name
 * environment (Required) - which environment you are working in
@@ -44,7 +44,7 @@ VPC-Test have the provider file that refers to terraform-aws-vpc which using the
 * acceptor_vpc_id (Optional) - default value is default VPC ID
 * vpc_peering_tags (Optional) - Default value is empty. type is map
 
-### Outputs
+## Outputs
 
 * vpc_id -  VPC ID created
 * public_subnet_ids - 2 public subnet ID created
